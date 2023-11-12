@@ -1,3 +1,5 @@
+/* v1002 CSS removing underline navbar */
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +32,8 @@ nav {
   font-size: 3rem;
   position: sticky;
   top: 0;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 ul {
