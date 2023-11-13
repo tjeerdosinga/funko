@@ -32,11 +32,18 @@ nav {
   font-size: 3rem;
   position: sticky;
   top: 0;
-
 }
 
-a, a:hover, a:focus, a:visited {
+a,
+a:hover,
+a:focus,
+a:visited {
   text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  background-color: darkorange;
   color: whitesmoke;
 }
 
