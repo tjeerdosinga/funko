@@ -135,6 +135,7 @@ p {
 }
 
 .collected {
+  display: flex;
   background-color: lightgreen;
   font-weight: bolder;
 }
@@ -152,4 +153,8 @@ p {
   background-color: darkred;
   color: whitesmoke;
   display: none;
+}
+
+.item {
+  padding-left: 20px;
 }
